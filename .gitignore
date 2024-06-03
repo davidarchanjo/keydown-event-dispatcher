@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript build outputs
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Editor directories and files
+.idea/
+.vscode/
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage reports
+coverage/
+
+# Environment variables
+.env
+
+# Output of npm pack
+*.tgz
+
+# MacOS-specific file
+.AppleDouble
+.LSOverride
+
+# Files related to debugging
+*.log

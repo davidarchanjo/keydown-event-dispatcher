@@ -1,0 +1,42 @@
+{
+  "name": "keydown-event-dispatcher",
+  "version": "1.0.0",
+  "description": "Utility module for dispatching keydown events in web applications. Provides predefined key codes and a function to simulate keydown events programmatically. Compatible with JavaScript and TypeScript projects.",
+  "homepage": "https://github.com/davidarchanjo/keydown-event-dispatcher",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "keydown",
+    "event",
+    "dispatcher",
+    "keyboard",
+    "typescript",
+    "javascript",
+    "keycode"
+  ],
+  "author": {
+    "name": "David Archanjo",
+    "email": "david.archanjo@hotmail.com",
+    "url": "https://www.linkedin.com/in/davidarchanjo"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidarchanjo/keydown-event-dispatcher"
+  },  
+  "bugs": {
+    "email": "david.archanjo@hotmail.com",
+    "url": "https://github.com/davidarchanjo/keydown-event-dispatcher/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
