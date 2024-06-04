@@ -19,7 +19,7 @@ yarn add keydown-event-dispatcher
 
 
 ## Usage
-- In project using the CommonJS module system
+- In projects using the CommonJS module system
 ```javascript
 const { triggerKeyboardEvent, KeyCodes } = require('keydown-event-dispatcher');
 
@@ -27,7 +27,7 @@ const { triggerKeyboardEvent, KeyCodes } = require('keydown-event-dispatcher');
 triggerKeyboardEvent(document.body, KeyCodes.Enter);
 ```
 
-- In project using the ES6 module system
+- In projects using the ES6 module system
 ```typescript
 import { triggerKeyboardEvent, KeyCodes } from 'keydown-event-dispatcher';
 
