@@ -3,7 +3,6 @@ A utility module for dispatching keydown events in web applications. Provides pr
 
 ## Installation
 You can install the Keydown Event Dispatcher module via npm:
-
 ```bash
 npm install keydown-event-dispatcher
 ```
