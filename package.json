@@ -1,6 +1,6 @@
 {
   "name": "keydown-event-dispatcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility module for dispatching keydown events in web applications. Provides predefined key codes and a function to simulate keydown events programmatically. Compatible with JavaScript and TypeScript projects.",
   "homepage": "https://github.com/davidarchanjo/keydown-event-dispatcher",
   "main": "dist/index.js",
