@@ -2,13 +2,24 @@
 A utility module for dispatching keydown events in web applications. Provides predefined key codes and a function to simulate keydown events programmatically. Compatible with JavaScript and TypeScript projects.
 
 ## Installation
-You can install the Keydown Event Dispatcher module via npm:
+You can install the Keydown Event Dispatcher module via:
+- `npm`
 ```bash
 npm install keydown-event-dispatcher
 ```
+- `pnpm`
+```bash
+pnpm install keydown-event-dispatcher
+```
+- `yarn`
+```bash
+yarn add keydown-event-dispatcher
+```
+
+
 
 ## Usage
-- JavaScript
+- In project using the CommonJS module system
 ```javascript
 const { triggerKeyboardEvent, KeyCodes } = require('keydown-event-dispatcher');
 
@@ -16,7 +27,7 @@ const { triggerKeyboardEvent, KeyCodes } = require('keydown-event-dispatcher');
 triggerKeyboardEvent(document.body, KeyCodes.Enter);
 ```
 
-- TypeScript
+- In project using the ES6 module system
 ```typescript
 import { triggerKeyboardEvent, KeyCodes } from 'keydown-event-dispatcher';
 
